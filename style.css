@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(244, 243, 248);
+}
+.position{
+    position:sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: rgb(244, 243, 248);
+    margin-top: 50px;
+}
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+/* class to share  */
+.primary-btn{
+    background-color: #E95A08;
+    color: #FFFFFF;
+    width: 16.875rem;
+    padding: 26px 50px;
+    border: none;
+    cursor: pointer;
+}
+.navi{
+    color: #8987A1;
+}
+.primary-title-color{
+    color: #E95A08;
+}
+.primary-text{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+}
+.header-container{
+    display: flex;
+    margin: 36px 110px;
+    justify-content: space-between;
+}
+.navigation ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    cursor: pointer;
+}
+
+/* .navigation ul li{
+
+} */
+.n-home{
+    color: #252432;
+    font-size: medium;
+    font-weight: 700;
+}
+.cart{
+    display: flex;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* banner-section  */
+.banner{
+    display: flex;
+    margin: 30px 110px;
+}
+.title{
+    font-weight: 700;
+    font-size: 4.0625rem;
+}
+
+/* Our plants section  */
+.plants-description-container{
+    
+    text-align: center;
+    margin: 30px 200px;
+
+}
+.head-of-our-plants{
+    margin: 0 auto;
+    font-size: 3.125rem;
+    font-weight: 700;
+}
+.plant-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    margin: 50px 110px;
+    gap: 20px;
+}
+.card{
+    margin-bottom: 30px;
+}
+.card>img{
+    width: 16.875rem;
+    height: 20.125rem;
+}
+
+
+.plants-lover-section-container{
+    display: flex;
+    gap: 70px;
+    margin: 180px 110px;
+
+}
+.image-container{
+    position: relative;
+}
+#badge{
+    position: absolute;
+    top: -100px;
+    right: -100px;
+}
+.lover-title{
+    font-weight: 700;
+    font-size: 3.125rem;
+}
+
+.lover-description>ul>li{
+    margin-bottom: 20px;
+}
+/* deal  */
+.deal{
+    margin: 120px 110px;
+    text-align: center;
+}
+.deal-title{
+     
+    font-weight: 700;
+    font-size: 3.125rem;
+}
