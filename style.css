@@ -20,6 +20,10 @@ body{
 }
 
 /* class to share  */
+.shadow{
+    filter: drop-shadow(8px 8px 10px rgba(0, 0, 0, 0.6));
+    filter: brightness(50%);
+}
 .primary-btn{
     background-color: #E95A08;
     color: #FFFFFF;
@@ -27,6 +31,25 @@ body{
     padding: 26px 50px;
     border: none;
     cursor: pointer;
+}
+.shop-now{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+.text-font{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+.set-text{
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.rad {
+    border-radius: 14px;
 }
 .navi{
     color: #8987A1;
@@ -148,11 +171,28 @@ body{
     flex-direction: column;
     gap: 28px;
 }
-.column-image>img{
-    border-radius: 14px;
+.bloom{
+    position: relative;
+}
+.ana{
+    position: relative;
+}
+.big-one{
+    position: relative;
+    text-align: center;
+}
+.big-text{
+    position: absolute;
+    top: 35%;
+    left: 25%;
 }
 .big-one>img{
     border-radius: 22px;
+}
+.zabo-text{
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #FFFFFF;
 }
 /* join the color branch  */
 .color-branch{
@@ -165,7 +205,50 @@ body{
     display: block;
     object-fit: cover;
 }
+.color-branch{
+    position: relative;
+}
+#form{
+    position: absolute;
+    top: 20%;
+    left:20% ;
 
+}
+.form{
+    text-align: center;
+}
+.title-of-form{
+    font-weight: 700;
+    font-size: 3.125rem;
+    color: #FFFFFF;
+}
+.subcribe-form{
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    width: 644px;
+    height: 50px;
+    color: #8987A1;
+    padding: 0 20px;
+    border: none;
+}
+.subscribe-btn{
+    width: 186px;
+    height: 50px;
+    padding: 0 50px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #E95A08;
+    text-align: center;
+        justify-content: center;
+            align-items: center;
+            cursor: pointer;
+}
 
 /* footer  */
 .footer-container{
