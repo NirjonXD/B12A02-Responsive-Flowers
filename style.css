@@ -343,14 +343,8 @@ body{
         align-items: center;
         justify-content: center;
     }
-    .big-img
-        {
-        width:361px;
-        height: 177px;
-    }
-        .bloom,
-        .ana{
-                    width: 366px;
+        .img{
+                    width: 361px;
                         height: 197px;
         }
         .zabo-text{
@@ -405,4 +399,13 @@ body{
             width: 218px;
             height: 50px;
          }
+         /* our deal  */
+    .deal{
+        margin: 40px 10px;
+    }
+    .gallery{
+        margin: 0 10px;
+        align-items: center;
+        justify-content: center;
+    }
 }
