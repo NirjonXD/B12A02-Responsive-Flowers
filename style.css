@@ -126,6 +126,7 @@ body{
 }
 .card{
     margin-bottom: 30px;
+    
 }
 .card>img{
     width: 16.875rem;
@@ -340,6 +341,9 @@ body{
     .margin{
         margin: 0 auto;
     }
+    .primary-btn{
+        width: 171px;
+    }
 
     /* banner  */
     .banner-image>img{
@@ -392,6 +396,12 @@ body{
         /* card          */
         .plant-container{
             grid-template-columns: repeat(2,1fr);
+            margin: 65px 10px;
+            gap: 10px;
+        }
+        .card>img{
+            width: 171px; 
+            height: 196.5px;
         }
 
      /* join the color bunch             */
