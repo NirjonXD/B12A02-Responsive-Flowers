@@ -306,7 +306,7 @@ body{
         display: none;
     }
     .margin{
-        margin: 0 auto;
+        margin: 0 10px;
     }
     .primary-btn{
         width: 171px;
@@ -346,6 +346,7 @@ body{
         .img{
                     width: 361px;
                         height: 197px;
+                        margin: 40px 10px;
         }
         .zabo-text{
             font-size: 1.25rem;
