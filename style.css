@@ -259,8 +259,9 @@ body{
 
 /* footer  */
 .footer-container{
-    display: flex;
-    gap: 100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* gap: 100px; */
     margin: 50px 110px;
 }
 .footer-title{
@@ -388,7 +389,7 @@ body{
         max-width: 100%;
         align-items: center;
         justify-content: center;
-        margin: 0 auto;
+        margin:0;
      }
          .color-branch>img{
             width:393px ;
@@ -430,8 +431,12 @@ body{
     width: 90%;
     text-align: center;
 }
-    .color-branch{
-        
-        max-width: 100%;
-    }
+.footer-container{
+    grid-template-columns: repeat(1,1fr);
+    margin: 0 10px;
+}
+.footer-logo{
+    gap: 1px;
+}
+
 }
