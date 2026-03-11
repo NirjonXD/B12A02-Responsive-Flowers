@@ -1,9 +1,10 @@
-html,
+
 body{
     background-color: rgb(244, 243, 248);
     margin: 0;
     padding: 0;
     overflow-x:hidden ;
+    box-sizing: border-box;
 }
 .position{
     width: 100%;
@@ -94,6 +95,8 @@ body{
 }
 .cart{
     display: flex;
+    align-items: center;
+    gap: 8px;
 }
 .navigation ul li a{
     text-decoration: none;
@@ -322,11 +325,12 @@ body{
 
     /* banner  */
     .banner{
-        margin: 0 10px;
+        margin: 0 auto;
     }
     .banner-image>img{
         max-width: 100%;
         width: 100%;
+        object-fit: cover;
     }
     /* navbar  */
     .n-home,
@@ -347,7 +351,7 @@ body{
         flex-direction: column-reverse;
         margin: 0 auto;
         align-items: center;
-        padding: 0 15px;
+        
     }
     .gallery{
         grid-template-columns: 1fr;
@@ -402,11 +406,13 @@ body{
         max-width: 100%;
         align-items: center;
         justify-content: center;
-        margin:0;
+        margin:0 auto;
      }
          .color-branch>img{
-            width: 393px;
+            max-width: 100%;
+            width: 100%;
             height: 295px;
+            object-fit: cover;
 
          }
          .input{
