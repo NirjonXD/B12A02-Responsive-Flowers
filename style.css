@@ -1,8 +1,9 @@
+html,
 body{
     background-color: rgb(244, 243, 248);
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    overflow-x:hidden ;
 }
 .position{
     width: 100%;
@@ -47,6 +48,10 @@ body{
     font-weight: 700;
     font-size: 1.25rem;
     color: #FFFFFF;
+}
+.bloom,
+.ana {
+    position: relative;
 }
 .set-text{
     text-align: center;
@@ -100,7 +105,7 @@ body{
     display: flex;
     margin: 30px 110px;
 }
-.title{
+.title-flower{
     font-weight: 700;
     font-size: 4.0625rem;
 }
@@ -279,7 +284,7 @@ body{
     
     justify-content: center;
 }
-.icon-img img {
+.icon-img>img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -302,6 +307,9 @@ body{
     .hide{
         display: none;
     }
+    .sizing-text{
+        margin: 16px 10px;
+    }
     .title{
         display: none;
     }
@@ -313,6 +321,9 @@ body{
     }
 
     /* banner  */
+    .banner{
+        margin: 0 10px;
+    }
     .banner-image>img{
         max-width: 100%;
         width: 100%;
@@ -324,7 +335,8 @@ body{
         display: none;
     }
     .header-container{
-        margin: 0 16px;
+        margin: 0 10px;
+        padding: 30px 16px;
     }
     .logo>img{
         width: 63px;
@@ -335,6 +347,7 @@ body{
         flex-direction: column-reverse;
         margin: 0 auto;
         align-items: center;
+        padding: 0 15px;
     }
     .gallery{
         grid-template-columns: 1fr;
@@ -392,8 +405,8 @@ body{
         margin:0;
      }
          .color-branch>img{
-            width:393px ;
-            height:295px ;
+            width: 393px;
+            height: 295px;
 
          }
          .input{
