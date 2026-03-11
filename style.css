@@ -311,7 +311,7 @@ body{
         display: none;
     }
     .sizing-text{
-        padding: 16px 10px;
+        margin: 16px 10px;
     }
     .title{
         display: none;
